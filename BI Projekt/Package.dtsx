@@ -7,12 +7,12 @@
   DTS:CreatorName="TIMS\tim"
   DTS:DTSID="{E347765F-096D-4BD2-AF0B-3F384F90E64B}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="14.0.3002.101"
+  DTS:LastModifiedProductVersion="14.0.3002.92"
   DTS:LocaleID="1030"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="64"
-  DTS:VersionGUID="{F78B8D69-A6CB-428C-AC76-D4A06D112318}">
+  DTS:VersionBuild="75"
+  DTS:VersionGUID="{D85573E6-5316-41CE-B506-A444B8272EC4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -44,6 +44,26 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="C:\Users\black\Desktop\BI-Projekt-master\BI Projekt\DHDB Scripts\Create DHDB.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Create DHDB.sql 3]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{278344CF-0FAA-458C-B696-46E3ED59FBE8}"
+      DTS:ObjectName="Create DHDB.sql 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\tim\Documents\Visual Studio 2017\Projects\BI Projekt\BI Projekt\DHDB Scripts\Create DHDB.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Create DHDB.sql 4]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{530C8A8A-42C6-4D31-B51C-0AF571F8E1F9}"
+      DTS:ObjectName="Create DHDB.sql 4">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\tim\Desktop\BI Opgave\BI-Projekt-master\BI Projekt\DHDB Scripts\Create DHDB.sql" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -117,6 +137,36 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Create DIM_Member.sql 3]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{7E0C2BEC-744A-43F9-A790-EB0AA91D602E}"
+      DTS:ObjectName="Create DIM_Member.sql 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\tim\Documents\Visual Studio 2017\Projects\BI Projekt\BI Projekt\DHDB Scripts\Create DIM_Member.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Create DIM_Member.sql 4]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{6444ECF9-A277-4B58-BFB6-A46A3D052C17}"
+      DTS:ObjectName="Create DIM_Member.sql 4">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\tim\Desktop\BI Opgave\BI-Projekt-master\BI Projekt\DHDB Scripts\Create DIM_Member.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Create DIM_Member.sql 5]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{24E0CEBF-C036-4D63-A4C6-386FBCCAD005}"
+      DTS:ObjectName="Create DIM_Member.sql 5">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\tim\Desktop\BI Opgave\BI-Projekt-master\BI Projekt\DHDB Scripts\Create DIM_Member.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Create DIM_Product.sql]"
       DTS:CreationName="FILE"
       DTS:DTSID="{F3357A2F-9080-4F96-A423-C17C70EECC49}"
@@ -144,6 +194,26 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="C:\Users\black\Desktop\BI-Projekt-master\BI Projekt\DHDB Scripts\Create DIM_Product.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Create DIM_Product.sql 3]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{10323A4E-7F0B-434C-8823-7F3F110B5F7F}"
+      DTS:ObjectName="Create DIM_Product.sql 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\tim\Documents\Visual Studio 2017\Projects\BI Projekt\BI Projekt\DHDB Scripts\Create DIM_Product.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Create DIM_Product.sql 4]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{03CFB70B-9E42-438D-9FCB-FB3F0DC62249}"
+      DTS:ObjectName="Create DIM_Product.sql 4">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\tim\Desktop\BI Opgave\BI-Projekt-master\BI Projekt\DHDB Scripts\Create DIM_Product.sql" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -187,6 +257,26 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Create SaleFacts.sql 2]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{C7692316-AE05-48A0-92F1-D0A4BDDF63D2}"
+      DTS:ObjectName="Create SaleFacts.sql 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\tim\Documents\Visual Studio 2017\Projects\BI Projekt\BI Projekt\DHDB Scripts\Create SaleFacts.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Create SaleFacts.sql 3]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{9B19DF95-4FFA-4C11-8527-E0AEC51FA683}"
+      DTS:ObjectName="Create SaleFacts.sql 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\tim\Desktop\BI Opgave\BI-Projekt-master\BI Projekt\DHDB Scripts\Create SaleFacts.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Create_DIM_Date.sql]"
       DTS:CreationName="FILE"
       DTS:DTSID="{076C9769-175B-47D9-AD1E-71F7A11FF36B}"
@@ -207,6 +297,26 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Create_DIM_Date.sql 2]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{C6681100-03C3-44DB-9ECC-B6982CFE3337}"
+      DTS:ObjectName="Create_DIM_Date.sql 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\tim\Documents\Visual Studio 2017\Projects\BI Projekt\BI Projekt\DHDB Scripts\Create_DIM_Date.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Create_DIM_Date.sql 3]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{21E231BB-9DA0-4958-A32A-E9194E289382}"
+      DTS:ObjectName="Create_DIM_Date.sql 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\tim\Desktop\BI Opgave\BI-Projekt-master\BI Projekt\DHDB Scripts\Create_DIM_Date.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Create_DIM_Timestamp.sql]"
       DTS:CreationName="FILE"
       DTS:DTSID="{1CDB570F-2EEB-4E4B-881A-A4AEF431709E}"
@@ -224,6 +334,26 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="C:\Users\black\Desktop\BI-Projekt-master\BI Projekt\DHDB Scripts\Create_DIM_Timestamp.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Create_DIM_Timestamp.sql 2]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{1968410B-9299-4108-8950-EFB8899121B1}"
+      DTS:ObjectName="Create_DIM_Timestamp.sql 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\tim\Documents\Visual Studio 2017\Projects\BI Projekt\BI Projekt\DHDB Scripts\Create_DIM_Timestamp.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Create_DIM_Timestamp.sql 3]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{21FB2F61-947F-4C37-9310-0E96453F8F71}"
+      DTS:ObjectName="Create_DIM_Timestamp.sql 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\tim\Desktop\BI Opgave\BI-Projekt-master\BI Projekt\DHDB Scripts\Create_DIM_Timestamp.sql" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -264,6 +394,16 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Data Source=C:\Users\black\Desktop\BI-Projekt-master\BI Projekt\DHDB Scripts\fclub_safe.mdb;Provider=Microsoft.Jet.OLEDB.4.0;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[fclub_safe 2]"
+      DTS:CreationName="ADO.NET:System.Data.OleDb.OleDbConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{D34466AD-90CC-4671-94A3-5167FE3A50EE}"
+      DTS:ObjectName="fclub_safe 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=C:\Users\tim\Desktop\BI Opgave\BI-Projekt-master\BI Projekt\DHDB Scripts\fclub_safe.mdb;Provider=Microsoft.Jet.OLEDB.4.0;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -363,9 +503,9 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{A410A453-C4B5-45EF-9C51-8A0647800FB9}"
+          SQLTask:Connection="{B50FADB8-6FA6-4262-B583-FDDF2BE415F7}"
           SQLTask:SqlStmtSourceType="FileConnection"
-          SQLTask:SqlStatementSource="Create DHDB.sql 2" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="Create DHDB.sql 4" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -378,13 +518,13 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Create DataWarehouse 1"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{A410A453-C4B5-45EF-9C51-8A0647800FB9}"
+          SQLTask:Connection="{B50FADB8-6FA6-4262-B583-FDDF2BE415F7}"
           SQLTask:SqlStmtSourceType="FileConnection"
-          SQLTask:SqlStatementSource="Create DHDB.sql 2" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="Create DHDB.sql 4" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -397,13 +537,13 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Create DateDIM"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{8AE125A1-9E4B-45DF-8113-DBB1E7AA72DF}"
+          SQLTask:Connection="{F33AC2AF-C3D4-400D-B8D5-AD75C97EA3B3}"
           SQLTask:SqlStmtSourceType="FileConnection"
-          SQLTask:SqlStatementSource="Create_DIM_Date.sql 1" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="Create_DIM_Date.sql 3" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -416,13 +556,13 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Create MemberDIM"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{8AE125A1-9E4B-45DF-8113-DBB1E7AA72DF}"
+          SQLTask:Connection="{F33AC2AF-C3D4-400D-B8D5-AD75C97EA3B3}"
           SQLTask:SqlStmtSourceType="FileConnection"
-          SQLTask:SqlStatementSource="Create DIM_Member.sql 2" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="Create DIM_Member.sql 4" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -435,13 +575,13 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Create ProductDIM"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{8AE125A1-9E4B-45DF-8113-DBB1E7AA72DF}"
+          SQLTask:Connection="{F33AC2AF-C3D4-400D-B8D5-AD75C97EA3B3}"
           SQLTask:SqlStmtSourceType="FileConnection"
-          SQLTask:SqlStatementSource="Create DIM_Product.sql 2" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="Create DIM_Product.sql 4" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -454,13 +594,13 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Create SaleFACT"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{8AE125A1-9E4B-45DF-8113-DBB1E7AA72DF}"
+          SQLTask:Connection="{F33AC2AF-C3D4-400D-B8D5-AD75C97EA3B3}"
           SQLTask:SqlStmtSourceType="FileConnection"
-          SQLTask:SqlStatementSource="Create SaleFacts.sql 1" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="Create SaleFacts.sql 3" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -473,13 +613,13 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Create TimestampDIM"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{8AE125A1-9E4B-45DF-8113-DBB1E7AA72DF}"
+          SQLTask:Connection="{F33AC2AF-C3D4-400D-B8D5-AD75C97EA3B3}"
           SQLTask:SqlStmtSourceType="FileConnection"
-          SQLTask:SqlStatementSource="Create_DIM_Timestamp.sql 1" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="Create_DIM_Timestamp.sql 3" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -496,7 +636,7 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{A410A453-C4B5-45EF-9C51-8A0647800FB9}"
+          SQLTask:Connection="{B50FADB8-6FA6-4262-B583-FDDF2BE415F7}"
           SQLTask:SqlStatementSource="DROP DATABASE SaleDB&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
@@ -504,7 +644,6 @@
       DTS:refId="Package\Fill MemberDIM"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{4CC3C487-F6C1-4C55-BF51-AC84D2D77722}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -556,8 +695,8 @@
               <connections>
                 <connection
                   refId="Package\Fill MemberDIM\ADO NET Source.Connections[IDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[fclub_safe 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[fclub_safe 1]"
+                  connectionManagerID="Package.ConnectionManagers[fclub_safe 2]"
+                  connectionManagerRefId="Package.ConnectionManagers[fclub_safe 2]"
                   description="Managed connection manager"
                   name="IDbConnection" />
               </connections>
@@ -726,8 +865,8 @@
               <connections>
                 <connection
                   refId="Package\Fill MemberDIM\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
+                  connectionManagerID="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -831,7 +970,6 @@
       DTS:refId="Package\Fill ProductDIM"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{EEB03E4A-8BE2-4DF6-A15D-21E92C2500D6}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -883,8 +1021,8 @@
               <connections>
                 <connection
                   refId="Package\Fill ProductDIM\ADO NET Source.Connections[IDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[fclub_safe 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[fclub_safe 1]"
+                  connectionManagerID="Package.ConnectionManagers[fclub_safe 2]"
+                  connectionManagerRefId="Package.ConnectionManagers[fclub_safe 2]"
                   description="Managed connection manager"
                   name="IDbConnection" />
               </connections>
@@ -908,7 +1046,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Fill ProductDIM\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[name]"
-                      length="255"
+                      length="50"
                       lineageId="Package\Fill ProductDIM\ADO NET Source.Outputs[ADO NET Source Output].Columns[name]"
                       name="name"
                       truncationRowDisposition="FailComponent" />
@@ -949,7 +1087,7 @@
                     <externalMetadataColumn
                       refId="Package\Fill ProductDIM\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[name]"
                       dataType="wstr"
-                      length="255"
+                      length="50"
                       name="name" />
                     <externalMetadataColumn
                       refId="Package\Fill ProductDIM\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[price]"
@@ -1071,8 +1209,8 @@
               <connections>
                 <connection
                   refId="Package\Fill ProductDIM\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
+                  connectionManagerID="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1087,7 +1225,7 @@
                     <inputColumn
                       refId="Package\Fill ProductDIM\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[name]"
                       cachedDataType="wstr"
-                      cachedLength="255"
+                      cachedLength="50"
                       cachedName="name"
                       externalMetadataColumnId="Package\Fill ProductDIM\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Product_Name]"
                       lineageId="Package\Fill ProductDIM\ADO NET Source.Outputs[ADO NET Source Output].Columns[name]" />
@@ -1221,8 +1359,8 @@
               <connections>
                 <connection
                   refId="Package\Fill SaleFacts\ADO NET Source.Connections[IDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[fclub_safe 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[fclub_safe 1]"
+                  connectionManagerID="Package.ConnectionManagers[fclub_safe 2]"
+                  connectionManagerRefId="Package.ConnectionManagers[fclub_safe 2]"
                   description="Managed connection manager"
                   name="IDbConnection" />
               </connections>
@@ -1436,8 +1574,8 @@ where [refTable].[DateKey] = ?</property>
               <connections>
                 <connection
                   refId="Package\Fill SaleFacts\Date.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
+                  connectionManagerID="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -1578,8 +1716,8 @@ where [refTable].[Member_ID] = ?</property>
               <connections>
                 <connection
                   refId="Package\Fill SaleFacts\Member.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
+                  connectionManagerID="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -1708,8 +1846,8 @@ where [refTable].[Member_ID] = ?</property>
               <connections>
                 <connection
                   refId="Package\Fill SaleFacts\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
+                  connectionManagerID="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1876,8 +2014,8 @@ where [refTable].[Product_ID] = ?</property>
               <connections>
                 <connection
                   refId="Package\Fill SaleFacts\Product.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
+                  connectionManagerID="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -1949,11 +2087,11 @@ where [refTable].[Product_ID] = ?</property>
               </outputs>
             </component>
             <component
-              refId="Package\Fill SaleFacts\ProductPrice"
+              refId="Package\Fill SaleFacts\Product Price"
               componentClassID="Microsoft.Lookup"
               contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
               description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
-              name="ProductPrice"
+              name="Product Price"
               usesDispositions="true"
               version="6">
               <properties>
@@ -2017,19 +2155,19 @@ where [refTable].[Product_Price] = ?</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Fill SaleFacts\ProductPrice.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
+                  refId="Package\Fill SaleFacts\Product Price.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
               <inputs>
                 <input
-                  refId="Package\Fill SaleFacts\ProductPrice.Inputs[Lookup Input]"
+                  refId="Package\Fill SaleFacts\Product Price.Inputs[Lookup Input]"
                   name="Lookup Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Fill SaleFacts\ProductPrice.Inputs[Lookup Input].Columns[price]"
+                      refId="Package\Fill SaleFacts\Product Price.Inputs[Lookup Input].Columns[price]"
                       cachedDataType="i4"
                       cachedName="price"
                       lineageId="Package\Fill SaleFacts\ADO NET Source.Outputs[ADO NET Source Output].Columns[price]">
@@ -2050,38 +2188,38 @@ where [refTable].[Product_Price] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Fill SaleFacts\ProductPrice.Outputs[Lookup Match Output]"
+                  refId="Package\Fill SaleFacts\Product Price.Outputs[Lookup Match Output]"
                   errorOrTruncationOperation="Lookup"
                   exclusionGroup="1"
                   name="Lookup Match Output"
-                  synchronousInputId="Package\Fill SaleFacts\ProductPrice.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Fill SaleFacts\Product Price.Inputs[Lookup Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Fill SaleFacts\ProductPrice.Outputs[Lookup No Match Output]"
+                  refId="Package\Fill SaleFacts\Product Price.Outputs[Lookup No Match Output]"
                   description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
                   exclusionGroup="1"
                   name="Lookup No Match Output"
-                  synchronousInputId="Package\Fill SaleFacts\ProductPrice.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Fill SaleFacts\Product Price.Inputs[Lookup Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Fill SaleFacts\ProductPrice.Outputs[Lookup Error Output]"
+                  refId="Package\Fill SaleFacts\Product Price.Outputs[Lookup Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Lookup Error Output"
-                  synchronousInputId="Package\Fill SaleFacts\ProductPrice.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Fill SaleFacts\Product Price.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Fill SaleFacts\ProductPrice.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      refId="Package\Fill SaleFacts\Product Price.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Fill SaleFacts\ProductPrice.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Fill SaleFacts\Product Price.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Fill SaleFacts\ProductPrice.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      refId="Package\Fill SaleFacts\Product Price.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Fill SaleFacts\ProductPrice.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Fill SaleFacts\Product Price.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -3142,8 +3280,8 @@ where [refTable].[TimeKey] = ?</property>
               <connections>
                 <connection
                   refId="Package\Fill SaleFacts\Time.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-ITKLG0Q.saleDB]"
+                  connectionManagerID="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[TIMS\MSSQLSERVER1.saleDB]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -3232,19 +3370,19 @@ where [refTable].[TimeKey] = ?</property>
               startId="Package\Fill SaleFacts\Time.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Fill SaleFacts.Paths[Lookup Match Output2]"
-              endId="Package\Fill SaleFacts\ProductPrice.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Fill SaleFacts\Product.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Fill SaleFacts.Paths[Lookup Match Output3]"
-              endId="Package\Fill SaleFacts\Time.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Fill SaleFacts\ProductPrice.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Fill SaleFacts.Paths[Lookup Match Output4]"
               endId="Package\Fill SaleFacts\OLE DB Destination.Inputs[OLE DB Destination Input]"
               name="Lookup Match Output"
               startId="Package\Fill SaleFacts\Date.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Fill SaleFacts.Paths[Lookup Match Output3]"
+              endId="Package\Fill SaleFacts\Product Price.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Fill SaleFacts\Product.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Fill SaleFacts.Paths[Lookup Match Output4]"
+              endId="Package\Fill SaleFacts\Time.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Fill SaleFacts\Product Price.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Fill SaleFacts.Paths[Output 0]"
               endId="Package\Fill SaleFacts\Member.Inputs[Lookup Input]"
@@ -3254,8 +3392,35 @@ where [refTable].[TimeKey] = ?</property>
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Rollback"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{F957BB65-98E0-44EE-AB4A-FAA7E69930CA}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Rollback"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{B50FADB8-6FA6-4262-B583-FDDF2BE415F7}"
+          SQLTask:SqlStatementSource="USE master;&#xA;GO&#xA;ALTER DATABASE SaleDB SET SINGLE_USER WITH ROLLBACK IMMEDIATE;&#xA;GO&#xA;DROP DATABASE SaleDB;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{79149E10-5C30-4E89-B310-0D001B2B8F54}"
+      DTS:From="Package\Delete DB"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Rollback"
+      DTS:Value="1" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
@@ -3279,6 +3444,13 @@ where [refTable].[TimeKey] = ?</property>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 11"
       DTS:To="Package\Fill SaleFacts" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 12]"
+      DTS:CreationName=""
+      DTS:DTSID="{7EB5BFF5-3936-43D9-99BE-966F412DA468}"
+      DTS:From="Package\Rollback"
+      DTS:ObjectName="Constraint 12"
+      DTS:To="Package\Create DataWarehouse 1" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
@@ -3324,7 +3496,6 @@ where [refTable].[TimeKey] = ?</property>
       DTS:CreationName=""
       DTS:DTSID="{76F58291-0C08-4644-8041-6AF86D656DA9}"
       DTS:From="Package\Delete DB"
-      DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 7"
       DTS:To="Package\Create DataWarehouse 1" />
     <DTS:PrecedenceConstraint
@@ -3644,6 +3815,68 @@ where [refTable].[TimeKey] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Rollback"
+          TopLeft="593,46" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="520,70.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="73,0"
+              Start="0,0"
+              End="65.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="65.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="17.50865234375,5,30.4826953125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 12]"
+          TopLeft="653.5,88">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-167.5,45"
+              Start="0,0"
+              End="-167.5,37.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.7888563049853" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.7888563049853"
+                    Point2="0,26.7888563049853"
+                    Point3="-4,26.7888563049853" />
+                  <mssgle:LineSegment
+                    End="-163.5,26.7888563049853" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-163.5,26.7888563049853"
+                    Point2="-167.5,26.7888563049853"
+                    Point3="-167.5,30.7888563049853" />
+                  <mssgle:LineSegment
+                    End="-167.5,37.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -3771,10 +4004,6 @@ where [refTable].[TimeKey] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="138,42"
-          Id="Package\Fill SaleFacts\ProductPrice"
-          TopLeft="388,415" />
-        <NodeLayout
           Size="102,42"
           Id="Package\Fill SaleFacts\Date"
           TopLeft="801,419" />
@@ -3825,7 +4054,7 @@ where [refTable].[TimeKey] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Fill SaleFacts.Paths[Lookup Match Output4]"
+          Id="Package\Fill SaleFacts.Paths[Lookup Match Output2]"
           TopLeft="852.75,461">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3845,66 +4074,6 @@ where [refTable].[TimeKey] = ?</property>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-48.19138671875,27.4453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Fill SaleFacts.Paths[Lookup Match Output3]"
-          TopLeft="526,435">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="86,0"
-              Start="0,0"
-              End="78.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="78.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8.94138671875,5,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Fill SaleFacts.Paths[Lookup Match Output2]"
-          TopLeft="233.5,386">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="223.5,29"
-              Start="0,0"
-              End="223.5,21.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,10.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,10.5"
-                    Point2="0,14.5"
-                    Point3="4,14.5" />
-                  <mssgle:LineSegment
-                    End="219.5,14.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="219.5,14.5"
-                    Point2="223.5,14.5"
-                    Point3="223.5,18.5" />
-                  <mssgle:LineSegment
-                    End="223.5,21.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="63.55861328125,19.5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -3978,6 +4147,82 @@ where [refTable].[TimeKey] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="145,42"
+          Id="Package\Fill SaleFacts\Product Price"
+          TopLeft="473,288" />
+        <EdgeLayout
+          Id="Package\Fill SaleFacts.Paths[Lookup Match Output3]"
+          TopLeft="292,365">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="181,-56"
+              Start="0,0"
+              End="173.5,-56">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="86.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="86.5,0"
+                    Point2="90.5,0"
+                    Point3="90.5,-4" />
+                  <mssgle:LineSegment
+                    End="90.5,-52" />
+                  <mssgle:CubicBezierSegment
+                    Point1="90.5,-52"
+                    Point2="90.5,-56"
+                    Point3="94.5,-56" />
+                  <mssgle:LineSegment
+                    End="173.5,-56" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="42.30861328125,1,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Fill SaleFacts.Paths[Lookup Match Output4]"
+          TopLeft="545.5,330">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="118.5,83"
+              Start="0,0"
+              End="118.5,75.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,37.5"
+                    Point2="0,41.5"
+                    Point3="4,41.5" />
+                  <mssgle:LineSegment
+                    End="114.5,41.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="114.5,41.5"
+                    Point2="118.5,41.5"
+                    Point3="118.5,45.5" />
+                  <mssgle:LineSegment
+                    End="118.5,75.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="11.05861328125,46.5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -3987,7 +4232,7 @@ where [refTable].[TimeKey] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3997,7 +4242,7 @@ where [refTable].[TimeKey] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4010,7 +4255,7 @@ where [refTable].[TimeKey] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -4020,7 +4265,7 @@ where [refTable].[TimeKey] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4046,7 +4291,7 @@ where [refTable].[TimeKey] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -4056,7 +4301,7 @@ where [refTable].[TimeKey] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4069,7 +4314,7 @@ where [refTable].[TimeKey] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -4079,7 +4324,7 @@ where [refTable].[TimeKey] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4089,6 +4334,29 @@ where [refTable].[TimeKey] = ?</property>
   <PipelineComponentMetadata
     design-time-name="Package\Fill SaleFacts\ADO NET Source">
     <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Fill SaleFacts\Product Price">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DIM_Product]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
